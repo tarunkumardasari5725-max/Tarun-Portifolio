@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasari Tarun Kumar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="stars">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="dashboard-wrapper">
+    
+    <aside class="sidebar-container">
+      <div class="profile-header">
+        <div class="profile-img-wrapper">
+          <img src="images/Tarun Profile.png" class="profile-img" alt="Tarun Profile">
+        </div>
+        <h1 class="user-name">Dasari Tarun Kumar</h1>
+        <div class="badge-role">CSE Student | AI Enthusiast</div>
+      </div>
+
+      <hr class="separator">
+
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <div class="icon-box">✉</div>
+          <div class="info-content">
+            <p class="info-title">EMAIL</p>
+            <a href="mailto:tarunkumardasari5725@gmail.com" class="info-link">tarunkumardasari5725@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="icon-box">📞</div>
+          <div class="info-content">
+            <p class="info-title">PHONE</p>
+            <span class="info-text">+91 7702731044</span>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="icon-box">🔗</div>
+          <div class="info-content">
+            <p class="info-title">LINKEDIN</p>
+            <a href="https://www.linkedin.com/in/dasari-tarun-kumar-8254b6373/" target="_blank" class="info-link">Visit My Profile</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content-panel">
+      
+      <nav class="internal-tab-nav">
+        <button class="tab-btn active" onclick="switchTab('about', this)">About</button>
+        <button class="tab-btn" onclick="switchTab('skills', this)">Skills</button>
+        <button class="tab-btn" onclick="switchTab('experience', this)">Experience</button>
+        <button class="tab-btn" onclick="switchTab('projects', this)">Projects</button>
+        <button class="tab-btn" onclick="switchTab('achievements', this)">Achievements</button>
+      </nav>
+
+      <div class="sections-wrapper">
+
+        <section id="about" class="tab-content active">
+          <h2 class="content-title">About Me</h2>
+          <div class="text-block">
+            <p class="highlight-text">
+              🚀 Aspiring <span>Software Engineer</span> and Computer Science Engineering student at
+              <span>Avanthi Institute of Engineering and Technology</span> with a CGPA of <span>8.43</span>.
+            </p>
+            <p>
+              Passionate about <span>AI/ML</span>, <span>Drone Technology</span>, and futuristic innovations like 
+              <span>Brain-to-Code Technology</span>. Skilled in <span>Python</span> and <span>Data Structures</span>.
+            </p>
+            <p>
+              Completed a <span>Web Development Internship</span> at EduExpose, working on real-time frontend optimization.
+            </p>
+          </div>
+
+          <h3 class="sub-heading">What I'm Doing</h3>
+          <div class="grid-showcase">
+            <div class="feature-card">
+              <div class="card-icon">💻</div>
+              <div>
+                <h4>Frontend Architecture</h4>
+                <p>Building responsive, interactive web interfaces with high performance optimizations.</p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <div class="card-icon">🤖</div>
+              <div>
+                <h4>AI Ecosystem Exploration</h4>
+                <p>Developing machine learning pipelines, facial analysis tracking arrays, and automation models.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="quote-callout">
+            <p>“Driven by curiosity, powered by innovation, and focused on building technology that creates real-world impact.”</p>
+          </div>
+        </section>
+
+        <section id="skills" class="tab-content">
+          <h2 class="content-title">Skills & Toolkit</h2>
+          <div class="badges-grid">
+            <div class="badge-item">HTML</div>
+            <div class="badge-item">CSS</div>
+            <div class="badge-item">JavaScript</div>
+            <div class="badge-item">Python</div>
+            <div class="badge-item">Java</div>
+            <div class="badge-item">SQL</div>
+            <div class="badge-item">VS Code</div>
+            <div class="badge-item">GitHub</div>
+          </div>
+        </section>
+
+        <section id="experience" class="tab-content">
+          <h2 class="content-title">Professional Experience</h2>
+          <div class="experience-card">
+            <div class="card-header-main">
+              <h3>Frontend Developer Intern</h3>
+              <span class="card-timeline">EduExpose</span>
+            </div>
+            <p class="card-desc">
+              Developed highly responsive web application layouts using HTML5, advanced CSS, and JavaScript. 
+              Refactored usability architectures, boosted responsive parameters across various Viewports, and minimized layout page render latency blocks.
+            </p>
+          </div>
+        </section>
+
+        <section id="projects" class="tab-content">
+          <h2 class="content-title">Featured Projects</h2>
+          <div class="grid-showcase">
+            <div class="feature-card project-type">
+              <div>
+                <h4>Smart Attendance System</h4>
+                <p>Built an AI-powered attendance system using Python and OpenCV with real-time face recognition and secure SQL database backend connections.</p>
+              </div>
+            </div>
+            <div class="feature-card project-type">
+              <div>
+                <h4>Personal Portfolio Website</h4>
+                <p>Designed and developed an immersive responsive digital environment portfolio application via modular CSS layouts and animation systems.</p>
+              </div>
+            </div>
+            <div class="feature-card project-type">
+              <div>
+                <h4>AI Smart Energy Optimization</h4>
+                <p>Industry 4.0 conceptual processing network framework engineered around calculating dynamic consumption limits to safely lower structural energy waste parameters.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="achievements" class="tab-content">
+          <h2 class="content-title">Achievements & Milestones</h2>
+          <div class="badges-grid">
+            <div class="badge-item milestone">🏆 CGPA 8.43</div>
+            <div class="badge-item milestone">💡 AI Workshop at IIT Hyderabad</div>
+            <div class="badge-item milestone">🎓 Frontend Industry Internship</div>
+            <div class="badge-item milestone">🐍 Core Python Certifications</div>
+          </div>
+        </section>
+
+      </div>
+
+      <footer class="panel-footer">
+        © 2026 Dasari Tarun Kumar | Designed with Modern Dashboard Layout
+      </footer>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
