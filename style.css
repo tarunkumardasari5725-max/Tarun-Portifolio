@@ -477,3 +477,7 @@ body {
     align-items: start;
   }
 }
+/* Added spacing for multiple experience cards */
+.experience-card + .experience-card {
+  margin-top: 18px;
+}
