@@ -37,7 +37,7 @@ Completed a **Web Development Internship at EduExpose**, where I worked on real-
 
 ## 🌐 Live Demo
 
-View my portfolio live: **[GitHub Pages Link](https://tarunkumardasari5725-max.github.io/Tarun-Portifolio/)**
+View my portfolio live: **https://tarun-portfolio-rust-ten.vercel.app**
 
 *(Note: Set up GitHub Pages in your repository settings for the live link to work)*
 
